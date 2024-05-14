@@ -1,0 +1,22 @@
+[gd_resource type="Resource" load_steps=6 format=2]
+
+[ext_resource path="res://mods-unpacked/Darkly77-ContentLoader/content_data.gd" type="Script" id=1]
+[ext_resource path="res://mods-unpacked/Stanley-StupidMod/content/characters/the_stupid/the_stupid_data.tres" type="Resource" id=2]
+[ext_resource path="res://mods-unpacked/Stanley-StupidMod/content/challenges/lobotomy_data.tres" type="Resource" id=3]
+[ext_resource path="res://mods-unpacked/Stanley-StupidMod/content/items/lobotomy/lobotomy_data.tres" type="Resource" id=4]
+[ext_resource path="res://mods-unpacked/Stanley-StupidMod/content/challenges/stupid_data.tres" type="Resource" id=5]
+
+[resource]
+script = ExtResource( 1 )
+characters = [ ExtResource( 2 ) ]
+items = [ ExtResource( 4 ) ]
+weapons = [  ]
+weapons_characters = [  ]
+sets = [  ]
+challenges = [ ExtResource( 3 ), ExtResource( 5 ) ]
+upgrades = [  ]
+consumables = [  ]
+elites = [  ]
+difficulties = [  ]
+debug_items = [  ]
+debug_weapons = [  ]
